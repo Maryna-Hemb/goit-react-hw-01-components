@@ -1,6 +1,7 @@
 import { Profile } from "./profile/Profile"
 import users from "../user.json"
 
+
 export const App = () => {
   return (
     <div
@@ -13,7 +14,7 @@ export const App = () => {
         color: '#010101'
       }}
     >
-      <Profile user={users} />
+      < Profile user={ users} />
     </div>
   );
 };
